@@ -104,7 +104,7 @@ const txt = `{
     }
 }
 `
-//exercise 1
+// exercise 1
 
 const skillJson = JSON.stringify(skills, undefined, 3);
 console.log(skillJson);
