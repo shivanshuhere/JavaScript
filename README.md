@@ -1,5 +1,5 @@
 # JavaScript
-Day 1  - Intro 
+Day 1  - Intro \n
 Day 2  - Data Types
 Day 3  - Boolean, Operators , Date
 Day 4  - Conditionals
