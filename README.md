@@ -36,3 +36,10 @@ Day 17  - Web Storage
 Day 18   - Promise
 
 Day 19   - Closures
+
+Day 20   - Clean Code
+
+Day 21   - DOM 1
+
+Day 22   - DOM 2 (Manipulation)
+
