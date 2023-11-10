@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day 22 DOM Manipulation</title>
+    <style>
+        .context  {
+            border:30px solid rgba(238, 224, 204, 0);
+            background-color:rgb(156, 210, 254);
+            border-radius: 20px;
+            outline-style:groove ;
+        }
+        .context p {
+            text-align: center;
+            font-size: x-large;
+            font-weight: 800;
+        }
+        #container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+
+        }
+        .evenNum
+        {
+            background-color: green;
+        }
+        .oddNum {
+            background-color: yellow;
+        }
+        .primeNum {
+            background-color: red;
+        }
+        .number{
+            border:2px solid black;
+            width: 3rem;
+            height: auto;
+            padding: 20px;
+            margin: 2rem;
+            
+        }
+    </style>
+</head>
+<body>
+    <div class="context">
+        <p>Green color : Even numbers</p>
+        <p>Yellow color : Odd numbers</p>
+        <p>Red color : Prime numbers</p>
+    </div>
+    <div id="container"></div>
+    <script src="exercise.js"></script>
+</body>
+</html>
