@@ -34,3 +34,5 @@ Day 16  - JSON
 Day 17  - Web Storage
 
 Day 18   - Promise
+
+Day 19   - Closures
