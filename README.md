@@ -43,3 +43,5 @@ Day 21   - DOM 1
 
 Day 22   - DOM 2 (Manipulation)
 
+Day 23   - Event Listner
+
