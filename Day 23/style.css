@@ -1,0 +1,84 @@
+*
+{
+    box-sizing: border-box;
+}
+#contentContainer
+{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+}
+h3 {
+    font-size: xx-large;
+}
+
+#numInput {
+    width: 20rem;
+    height: 2rem;
+    color: rgb(100, 100, 220);
+    text-align: center;
+    font-size: larger;
+    
+}
+
+#generateBtn {
+    width: 6rem;
+    height: 2rem;
+    margin: 2rem;
+    font-size: large;
+    color: white;
+    background-color: green;
+    border:3px solid green;
+    border-radius: 7px;
+}
+#generateBtn:hover{
+    cursor: grab;
+    border-bottom: solid 4px black;
+    border-right: solid 4px black;
+
+}
+
+#generateBtn:active{
+    background-color: white;
+    color: green;
+}
+
+#contentContainer{
+    border: solid 2px black;
+    margin: 3rem auto;
+    max-width: 50rem;
+}
+/* color according to type */
+#numContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.number {
+    width: 5rem;
+    height: 4rem;
+    color:black;
+    border: 2px solid black;
+    margin: 10px;
+    text-align: center;
+    padding:20px;
+    font-size: x-large;
+}
+.evenNum
+{
+    background-color: green;
+}
+.oddNum{
+    background-color: yellow;
+}
+.primeNum{
+    background-color: red;
+}
+
+/* to remove the spiner in input element */
+input::-webkit-inner-spin-button,
+input::-webkit-outer-spin-button{
+    -webkit-appearance: none;
+}
