@@ -1,0 +1,25 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family:cursive;
+}
+
+/* header */
+.header-container 
+{
+  width: 100vw;
+  height: 10rem;
+  display: inline;
+  
+}
+
+.headline 
+{
+  font-size:xxx-large;
+  text-align: center;
+}
+
+input
+{}
+

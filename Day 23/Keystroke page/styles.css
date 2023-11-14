@@ -1,0 +1,43 @@
+*
+{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.container
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+}
+ #heading 
+ {
+    
+    max-width: 60rem;
+    height: auto;
+    font-size: xx-large;
+    /* background-color: grey; */
+    color: white;
+    /* border: 3px solid black; */
+    text-align: center;
+    
+ }
+
+ .keyContainer{
+    max-width: 95vw;
+    width: auto;
+    height: auto;
+    padding: 2rem;
+    border: 2px solid grey;
+ }
+
+ .keyContext
+ {
+    font-size: xx-large;
+    color: green;
+
+ }
