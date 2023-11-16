@@ -1,0 +1,50 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+/* header */
+ header {
+    width: 100vw;
+    height: auto;
+    padding:2rem 0;
+    text-align: center;
+    border: solid 2px rgba(68, 68, 68, 0.073);
+    background-color: rgba(81, 81, 81, 0.111);
+   
+ }
+
+ header h2 {
+    font-size: xx-large; 
+    color: orange;
+    font-weight: 200;
+ }
+
+
+
+ /* main */
+
+ 
+ .graph-buttons
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.graph-buttons button {
+    margin: 2rem 0.8rem ;
+    width: 120px;
+    height: 40px;
+    background-color: orange;
+    font-size: large;
+}
+
+.graph-title 
+{
+    text-align: center;
+    font-size: large;
+    font-weight: 500;
+}
