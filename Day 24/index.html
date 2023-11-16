@@ -3,31 +3,37 @@
 
 <head>
 	<title>Solar System: Document Object Model:30 Days Of JavaScript</title>
-	<link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
 	<header class="header-container">
 		<h1 class="headline" >Calculate a weight of an object on a planet</h1>
+		<div class="input-container">
 
-		<input type="text" id="mass" placeholder="Mass in Kilogram" class="input" itemid="massInput" />
-		<select class="selectPlanet" id="planet">
-			<option value='none'>--select planet-- </option>
-		</select>
-		<button class="btn" id="calcBtn">Calculate weight</button>
-
+			<input type="text" id="mass" placeholder="Mass in Kilogram" class="input" itemid="massInput" />
+			<select class="selectPlanet" id="planet">
+				<option value='none' >--select planet-- </option>
+				<option   value="earth" selected="selected" >Earth</option>
+				<option value="jupiter">Jupiter</option>
+				<option value="mars">Mars</option>
+				<option value="mercury">Mercury</option>
+				<option value="moon">Moon</option>
+				<option value="neptune">Neptune</option>
+				<option value="pluto">Pluto</option>
+				<option value="saturn">Saturn</option>
+				<option value="venus">Venus</option>
+				<option value="uranus">Uranus</option>
+			</select>
+			<button class="btn" id="calcBtn">Calculate weight</button>
+		</div>
 	</header>
 	<main class="container">
 		<div class="flex-container">
 			<div class="flex-item image">
-				<img src='./images/earth.png' class="planet-image" />
-			</div>
+				<img src='./images/earth.png' class="planet-image" /></div>
 			<div class="flex-item description"></div>
-
 		</div>
-
-
 	</main>
 
 
