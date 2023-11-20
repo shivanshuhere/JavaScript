@@ -48,3 +48,31 @@
     font-size: large;
     font-weight: 500;
 }
+
+#stat {
+    /* display:none; */
+    border: solid 2px rgba(68, 68, 68, 0.073);
+    background-color: rgba(81, 81, 81, 0.111);
+    width: 100vw;
+    height: auto;
+}
+
+.pop {
+    width: auto;
+    height: 2rem;
+    padding: 7px;
+    background-color: orange;
+    color: white;
+    font-size: larger;
+    border: 1px solid white;
+    margin: 10px;
+    
+}
+
+.popGraph {
+    width: 200px;
+    height: 2rem;
+    background-color: yellow;
+    border: solid black 2px;
+    
+}
