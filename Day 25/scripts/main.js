@@ -5,12 +5,29 @@ const graphWrap = document.querySelector('#stat');
 
 popBtn.addEventListener('click', ()=>{
     graphTitle.textContent = "10 Most popular countries in the world";
-    const popArr = countries.sort((a,b)=> b.population - a.population)
-    const popTen = popArr.slice(0, 10);
-})
+    let popArr = countries.sort((a,b)=> b.population - a.population)
+    let popTen = popArr.slice(0, 10);
 
+    popTen.forEach(pop => {
+        //name
+        let name = document.createElement('p')
+        name.textContent = pop.name
+        graphWrap.appendChild(name)
+
+        // graph
+        let graph = document.createElement('div')
+        graph.classList = 'popGraph'
+        graphWrap.appendChild(graph)
+
+
+        // population
+        let popNum = document.createElement('p')
+        popNum.textContent = pop.population
+        graphWrap.appendChild(popNum)
+
+
+    })
+})
 langBtn.addEventListener('click', ()=>{
-    graphTitle.textContent = "10 Most spoken languages in the world";
-    
+    graphTitle.textContent = "10 Most spoken languages in the world";  
 })
-
