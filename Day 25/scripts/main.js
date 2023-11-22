@@ -50,4 +50,36 @@ popBtn.addEventListener('click', ()=>{
 langBtn.addEventListener('click', ()=>{
     graphTitle.textContent = "10 Most spoken languages in the world";  
     graphWrap.innerHTML = ''
+    let totLangArr = countries.map(ele => ele.languages).flat()
+    // loop to insert ele info
+
+    // container
+    let container = document.createElement('div');
+    container.classList = 'container'
+
+    // lang Name div
+    let name = document.createElement('p');
+    name.classList = 'popName, popEle'
+    name.textContent = '' // key
+
+    // graph
+    let graph = document.createElement('div');
+    //width goes here
+    graph.style.height = `2rem`
+    graph.style.backgroundColor = 'yellow';
+    graph.style.border = 'solid black 2px';
+    graph.classList = 'popGraph';
+
+    // number
+    let num = document.createElement('p');
+    name.classList = 'popName, popEle'
+    num.textContent = '' //value
+
+
+    // append
+    container.appendChild(name, graph, number)
+    graphWrap.appendChild(container);
+
+    // loop ends here
+    
 })
