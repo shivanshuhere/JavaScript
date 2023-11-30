@@ -45,3 +45,11 @@ Day 22   - DOM 2 (Manipulation)
 
 Day 23   - Event Listner
 
+Day 24   - Mini Project 1 (Solar Planet)
+
+Day 25   - Mini Project 2 (World Countires Data)
+
+Day 26   - Mini Project 3 (World Countries List) --  working on this (:
+
+
+
