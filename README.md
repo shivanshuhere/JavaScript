@@ -49,7 +49,9 @@ Day 24   - Mini Project 1 (Solar Planet)
 
 Day 25   - Mini Project 2 (World Countires Data)
 
-Day 26   - Mini Project 3 (World Countries List) --  working on this (:
+Day 26   - Mini Project 3 (World Countries List) 
+
+Day 27   - Portfolio --  working on this (:
 
 
 
